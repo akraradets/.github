@@ -1,13 +1,12 @@
 {
-    "name": "Octo Organization Workflow",
-    "description": "Octo Organization CI starter workflow.",
-    "iconName": "example-icon",
-    "categories": [
-        "Go"
-    ],
-    "filePatterns": [
-        "package.json$",
-        "^Dockerfile",
-        ".*\\.md$"
-    ]
+  "name": "BuildNPush Container to GHCR",
+  "description": "The workflow for building and pushing docker container to GitHib Container Registry",
+  "iconName": "octicon share",
+  "categories": [
+      "Composer"
+  ],
+  "filePatterns": [
+      "*.Dockerfile",
+      "docker-compose*"
+  ]
 }
